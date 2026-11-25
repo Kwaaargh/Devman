@@ -8,7 +8,7 @@ GPS_COORDINATES = {
 }
 urls = []
 for coordinate in GPS_COORDINATES.values():
-    raw_url = "https://wttr.in/{}?nTqu&lang=en".format(coordinate)
+    raw_url = "https://wttr.in/{}?nTqM&lang=ru".format(coordinate)
     urls.append(requests.get(raw_url))
 
 for url in urls:
