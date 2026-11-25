@@ -1,0 +1,7 @@
+.venv/
+.vscode/
+.gitattributes
+__pycache__/
+*.md
+*.py
+!/forecast.py
